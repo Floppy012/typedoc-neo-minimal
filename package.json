@@ -1,0 +1,17 @@
+{
+  "name": "typedoc-neo-minimal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf ./docs/",
+    "docs": "npm run clean && typedoc --theme ./node_modules/typedoc-neo-theme/bin/default/ --out docs --module node ./src/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typedoc": "0.15.0",
+    "typedoc-neo-theme": "1.0.3"
+  }
+}
