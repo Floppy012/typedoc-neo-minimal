@@ -12,6 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "typedoc": "0.15.0",
-    "typedoc-neo-theme": "1.0.3"
+    "typedoc-neo-theme": "1.0.2"
   }
 }
